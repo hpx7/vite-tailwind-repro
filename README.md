@@ -1,6 +1,8 @@
 ### Repro:
 
-Run `vite client` from root and visit http://localhost:3000
+First run `npm install` inside `client`.
+
+Then run `vite client` from root and visit http://localhost:3000
 
 ### Expected:
 

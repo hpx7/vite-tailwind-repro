@@ -1,6 +1,6 @@
 ### Repro:
 
-Run `vite client` and visit http://localhost:3000
+Run `vite client` from root and visit http://localhost:3000
 
 ### Expected:
 
@@ -27,3 +27,7 @@ Require stack:
       at async TransformContext.transform (/vite/dist/node/chunks/dep-76613303.js:20015:50)
       at async Object.transform (/vite/dist/node/chunks/dep-76613303.js:36985:30)
 ```
+
+### Notes
+
+Note that running `vite` from inside `client` works as expected.

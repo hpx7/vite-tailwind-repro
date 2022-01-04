@@ -1,10 +1,12 @@
-Repro:
+### Repro:
 
 Run `vite client` and visit http://localhost:3000
 
-Expected: Webpage with "Hello world!"
+### Expected:
 
-Actual:
+Webpage with "Hello world!"
+
+### Actual:
 
 ```
 2:25:05 PM [vite] Internal server error: Loading PostCSS Plugin failed: Cannot find module 'tailwindcss'
